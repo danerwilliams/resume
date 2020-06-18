@@ -1,0 +1,258 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{helvet}
+
+% Helps automatic automatic resume parsers
+\input{glyphtounicode}
+\pdfgentounicode=1
+ 
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    {#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}\fontfamily{phv}\selectfont{
+\vspace{0pt}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{{\huge DANE WILLIAMS}} \\  
+  \vspace{4pt}
+  \href{mailto:dwilli36@nd.edu}{dwilli36@nd.edu} $\vert$ \href{https://www.danewilliams.me}{danewilliams.me} $\vert$ 425 988 4749 \\
+  \href{https://www.linkedin.com/in/danerwilliams/}{linkedin.com/in/danerwilliams} $\vert$ \href{https://github.com/danerwilliams}{github.com/danerwilliams}
+\end{center}
+\vspace{-10pt}
+
+%-----------EDUCATION-----------------
+\shorterSection{\textbf{Education}}
+\vspace{0pt}
+  \resumeSubHeadingListStart
+     \vspace{1pt}
+    \resumeSubheading
+      {University of Notre Dame}{Notre Dame, IN}
+      {\textbf{B.S. Computer Science}, College of Engineering}{Aug. 2018 - May 2022}
+      \resumeItemListStart
+      \resumeItem{}
+        {Cumulative GPA: 3.68/4.0, Major GPA: 3.84/4.0}
+      \resumeItem{}
+        {Relevant Coursework (Completed): Data Structures \& Algorithms, Systems Programming, Discrete Math, Logic Design, Computer Architecture}
+      \resumeItem{}
+        {Relevant Coursework (Fall 2020): Compilers \& Language Design, Theory of Computing, Programming Paradigms}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Eastside Catholic School}{Sammamish, WA}
+      {Salutatorian; GPA: 3.99/4.0} {Aug. 2014 - May. 2018}
+  \resumeSubHeadingListEnd
+  
+  \vspace{4pt}
+
+%-----------EXPERIENCE-----------------
+\shorterSection{\textbf{Experience}}
+  \resumeSubHeadingListStart
+ 
+    \vspace{0pt}
+
+    %AT&T
+    \resumeSubheading
+      {AT\&T}{San Ramon, CA}
+      {Technology Development Program Intern}{Jun 2020 - Aug 2020}
+      \resumeItemListStart
+        \resumeItem{}
+          {Incoming intern at AT\&T}
+      \resumeItemListEnd
+      
+    %Symetra
+    \resumeSubheading
+      {Symetra}{Bellevue, WA}
+      {Cloud Intern}{May 2019 - Aug 2019}
+        \resumeItemListStart
+        \resumeItem{}
+          {Gathered and visualized over 20,000 network infrastructure related data points by writing various python scripts which drove strategy leading to over \$50k in monthly circuit savings}
+        \resumeItem{}
+          {Automated invoice processing with python, boto3 SDK, AWS Machine Learning: Textract (Optical Character Recognition) and Comprehend (Natural Language Processing), as well as other AWS services: SQS, SNS, and S3}
+      \resumeItemListEnd
+    
+      %Chaoli Wang Research
+      \resumeSubheading
+      {University of Notre Dame}{Notre Dame, IN}
+      {Undergraduate Researcher}{Aug 2020 - Present}
+        \resumeItemListStart
+        \resumeItem{}
+          {Incoming researcher with Dr. Chaoli Wang working with D3.js}
+      \resumeItemListEnd
+
+      %ND VC
+      \resumeSubheading
+        {Notre Dame Venture Capital}{Notre Dame, IN}
+        {Investment Associate}{Aug 2019 - May 2020}
+        \resumeItemListStart
+          \resumeItem{}
+            {Selected to take part in a small group of Notre Dame students who invest university endowment funds in seed stage startups}
+          \resumeItem{}
+            {Worked with a team of 4 students + Notre Dame alumnus at Pivot North Capital in Menlo Park, CA to create investment proposals}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+\vspace{2pt}
+
+%-----------PROJECTS-----------------
+\shorterSection{\textbf{Projects}}
+  \resumeSubHeadingListStart
+  
+      \vspace{0pt}
+
+      \resumeSubItem{\textbf{Tmux Dracula Theme: }}
+      { Open source maintainer and contributor for the official Dracula Theme, \href{https://github.com/dracula/tmux}{github.com/dracula/tmux}
+         \vspace{-5pt}
+         \begin{itemize}
+          \item Developed a tmux (terminal multiplexor) extension from scratch in shell which was accepted to the official dracula theme: \href{https://draculatheme.com/tmux}{draculatheme.com/tmux}
+          \vspace{-2pt}
+          \item Used API's, webscraping, and Unix pipelines to gather network, power, weather, and date/time data to display in tmux status bar.
+          \vspace{-2pt}
+          \item Commit code, merge pull requests, perform code reviews, and manage issues (bugs, feature requests, todos) for the project.
+         \end{itemize}
+      }
+     \vspace{-2pt}
+      \resumeSubItem{\textbf{Pork Chop Chat Bot: }}
+     { An AI chat bot written in python, \href{https://github.com/danerwilliams/pork-chop}{github.com/danerwilliams/pork-chop}
+        \vspace{-5pt}
+        \begin{itemize}
+            \item Developed a groupme chat bot in python that participates in conversation as well as respond to custom command modules.
+            \vspace{-2pt}
+            \item Runs on a Flask server and can be trained for conversation from a custom csv dataset or other corpus files using the ChatterBot module. 
+        \end{itemize}
+     }
+    \vspace{-2pt}
+    \resumeSubItem{\textbf{Spidey Web Server: }}
+      { A simple http web server written in C
+        \vspace{-5pt}
+        \begin{itemize}
+            \item Developed a simple http web server in C similar to Apache or Nginx, with both single and concurrency modes
+            \vspace{-2pt}
+            \item Deployed server to an AWS EC2 virtual machine, available for demonstration at \href{http://aws.danewilliams.me:9898}{aws.danewilliams.me:9898}
+        \end{itemize}
+      }
+
+  \resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+%-----------Activities & Awards-----------------
+\shorterSection{\textbf{Activities \& Awards}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Notre Dame Men's Water Polo}{Notre Dame, IN}
+      {Nationals Qualifier, Conference Champion, Elected Team Officer}{Aug 2018 - Present}
+    
+    \vspace{-2pt}
+
+    \resumeSubheading
+      {Washington Athletic Club 101 Scholar Athlete}{Seattle, WA}
+      {Award Recipient}{May 2018}
+      
+
+  \resumeSubHeadingListEnd
+  
+%-----------CERTIFICATIONS-----------------
+\shorterSection{\textbf{Certifications}}
+  \resumeSubHeadingListStart
+  
+      \vspace{0pt}
+
+      \resumeSubItem{\textbf{The University of Texas at Austin:}}
+      { Think Before You Design Think - Level 2 Design Thinking Certified
+         \vspace{-5pt}
+         \begin{itemize}
+          \item UT Austin coursework offered at AT\&T on utilizing design thinking principles to develop customer centered engineering and business solutions
+         \end{itemize}
+      }
+
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\shorterSection{\textbf{Skills}}
+  \resumeSubHeadingListStart
+  \small
+    \item[]{\hspace{-12pt}
+     \textbf{Languages}{: Python, C++, C, Shell, Verilog, Java, HTML/CSS, ARM Assembly}
+     \hfill
+     \textbf{Technologies}{: Linux/Unix, AWS, Git}
+    }
+    \vspace{-5pt}
+
+\resumeSubHeadingListEnd
+}\end{document}
