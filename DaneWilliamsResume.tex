@@ -107,7 +107,7 @@
       \resumeItem{}
         {Cumulative GPA: 3.73/4.0, Major GPA: 3.86/4.0}
       \resumeItem{}
-        {Relevant Coursework (Completed): Data Structures, Compilers, Systems Programming, Discrete Math, Logic Design, Computer Architecture, Theory of Computing}
+        {Relevant Coursework: Data Structures, Compilers, Systems, Discrete Math, Logic Design, Computer Architecture, Theory of Computing}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -132,8 +132,8 @@
         \resumeItem{}
           {Contributed to AT\&T Labs research in detecting 5G network anomalies: }
           \begin{itemize}
-            \item[$\circ$] Developed a python application for centralizing virtual network function data with an Apache Pulsar message bus (similar to Kafka)
-            \item[$\circ$] Processed data with python and Apache Flink data stream computation engine (similar to Hadoop and Spark)
+            \item[$\circ$] Developed a Python application for centralizing virtual network function data with an Apache Pulsar message bus (similar to Kafka)
+            \item[$\circ$] Processed data with Python and Apache Flink data stream computation engine (similar to Hadoop and Spark)
           \end{itemize}
         \resumeItem{}
           {Scrum master and full stack developer among a team of interns which built a MERN stack (Mongo, Express, React, Node) application for improving student engagement in online classroom environments}
@@ -145,14 +145,14 @@
       {Cloud Intern}{May 2019 - Aug 2019}
         \resumeItemListStart
         \resumeItem{}
-          {Gathered and visualized over 20,000 network infrastructure related data points by writing various python scripts which drove strategy leading to over \$50k in monthly circuit savings}
+          {Gathered and visualized over 20,000 network infrastructure related data points by writing various Python scripts which drove strategy leading to over \$50k in monthly circuit savings}
         \resumeItem{}
-          {Automated invoice processing with python, boto3 SDK, AWS Machine Learning: Textract (Optical Character Recognition) and Comprehend (Natural Language Processing), as well as other AWS services: SQS, SNS, and S3}
+          {Automated invoice processing with Python, Boto3 SDK, AWS Machine Learning: Textract (Optical Character Recognition) and Comprehend (Natural Language Processing), as well as other AWS services: SQS, SNS, and S3}
       \resumeItemListEnd
     
       %Chaoli Wang Research
       \resumeSubheading
-      {Notre Dame Chaoli Wang Lab}{Notre Dame, IN}
+      {Notre Dame Visualization Lab}{Notre Dame, IN}
       {Data Visualization Researcher}{Aug 2020 - Present}
         \resumeItemListStart
         \resumeItem{}
@@ -160,17 +160,6 @@
         \resumeItem{}
           {Designing and building visual analytical tools of Notre Dame student learning data with the goal of helping close academic performance gaps which result from disparities in student backgrounds}
       \resumeItemListEnd
-
-      %ND VC
-      \resumeSubheading
-        {Notre Dame Venture Capital}{Notre Dame, IN}
-        {Investment Associate}{Aug 2019 - May 2020}
-        \resumeItemListStart
-          \resumeItem{}
-            {Selected to take part in a small group of Notre Dame students who invest university endowment funds in seed stage startups}
-          \resumeItem{}
-            {Worked with a team of 4 students + Notre Dame alumnus at Pivot North Capital in Menlo Park, CA to create investment proposals}
-        \resumeItemListEnd
 
   \resumeSubHeadingListEnd
   
@@ -186,33 +175,37 @@
       { Open source maintainer and contributor for the official Dracula Theme, \href{https://github.com/dracula/tmux}{github.com/dracula/tmux}
          \vspace{-5pt}
          \begin{itemize}
-          \item Developed a tmux (terminal multiplexor) extension from scratch in shell which was accepted to the official dracula theme: \href{https://draculatheme.com/tmux}{draculatheme.com/tmux}
+          \item Wrote the original codebase for a tmux (terminal multiplexor) plugin which was accepted to the official Dracula Theme.
           \vspace{-2pt}
-          \item Used API's, webscraping, and Unix pipelines to gather network, power, weather, and date/time data to display in tmux status bar.
+          \item Use API's and Unix pipelines with shell scripts to gather various pieces of system information and display in the tmux status bar.
           \vspace{-2pt}
           \item Commit code, merge pull requests, perform code reviews, and manage issues (bugs, feature requests, todos) for the project.
           \vspace{-2pt}
-          \item Project averages over 100 unique clones per week and has attracted several contributors from different countries around the world
+          \item Project has over 100 github stars, averages 100+ unique clones per week, and has attracted several contributors from around the world.
          \end{itemize}
       }
      \vspace{-2pt}
       \resumeSubItem{\textbf{Pork Chop Chat Bot: }}
-     { An AI chat bot written in python, \href{https://github.com/danerwilliams/pork-chop}{github.com/danerwilliams/pork-chop}
+     { An AI chat bot written in Python, \href{https://github.com/danerwilliams/pork-chop}{github.com/danerwilliams/pork-chop}
         \vspace{-5pt}
         \begin{itemize}
-            \item Developed a groupme chat bot in python that participates in conversation as well as responds to custom command modules.
+            \item Developed a groupme chat bot in Python that participates in conversation as well as responds to custom command modules.
             \vspace{-2pt}
             \item Runs on a Flask server and can be trained for conversation from a custom csv dataset or other corpus files using the ChatterBot module. 
         \end{itemize}
      }
     \vspace{-2pt}
-    \resumeSubItem{\textbf{Spidey Web Server: }}
-      { A simple http web server written in C
+    \resumeSubItem{\textbf{B-Minor Compiler: }}
+      { A 4 stage compiler for the B-Minor programming language consisting of a scanner, parser, formatter, and typechecker
         \vspace{-5pt}
         \begin{itemize}
-            \item Developed a simple http web server in C similar to Apache or Nginx, with both single and concurrency modes
+            \item Scans B-Minor source code for legal tokens using regular expressions written in Flex (Lex).
             \vspace{-2pt}
-            \item Deployed server to an AWS EC2 virtual machine, available for demonstration at \href{http://aws.danewilliams.me:9898}{aws.danewilliams.me:9898}
+            \item Parses tokens for proper syntax using a context free grammar written in Bison (Yacc).
+            \vspace{-2pt}
+            \item Builds an abstract syntax tree in C from the parsed tokens, and then prints the source code using a consistent and readable format.
+            \vspace{-2pt}
+            \item Resolves variables and then checks for legal type assignments in the abstract syntax tree to ensure assembly code can be generated. 
         \end{itemize}
       }
 
@@ -261,7 +254,7 @@
   \resumeSubHeadingListStart
   \small
     \item[]{\hspace{-12pt}
-     \textbf{Languages}{: Python, C++, C, Shell, Verilog, Java, HTML/CSS, ARM Assembly}
+     \textbf{Languages}{: Python, C, Shell, C++, Java, Verilog, HTML/CSS, ARM Assembly}
      \hfill
      \textbf{Technologies}{: Linux/Unix, AWS, Git}
     }
